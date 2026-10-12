@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow Test App",
+  "description": "A clean, modular React and TypeScript task management test repository designed for code analysis and dependency graph verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
