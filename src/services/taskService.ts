@@ -46,7 +46,7 @@ export function processTasks(
   searchQuery: string,
   sortByPriority: boolean = false
 ): Task[] {
-  let result = filterTasks(tasks, filter);
+  let result = tasks;
   result = searchTasks(result, searchQuery);
   if (sortByPriority) {
     result = sortTasksByPriority(result);
